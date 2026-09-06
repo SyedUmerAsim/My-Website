@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(27, 17, 17);
+    color: rgb(184, 183, 183);
+    display: flow-root;
+}   
+
+main{
+    display: flow-root;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    color: rgb(184, 183, 183);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(177, 163, 163);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.navbar li{
+    float: left;
+}
+
+
+#contactheading {
+    border-bottom: 3px solid rgb(184, 183, 183);  
+    width: 600px;  
+}
+
+#insta {
+    margin: 50px;
+    float: left;
+}
+
+#github {
+    margin: 50px;
+    float: left;
+}
+
+#gmail {
+    margin: 50px;
+    float: left;
+}

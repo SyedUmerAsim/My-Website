@@ -37,3 +37,16 @@ main{
 .navbar li{
     float: left;
 }
+
+#intro2{
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .navbar li  {
+        float: none;
+    }
+}

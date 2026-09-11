@@ -55,3 +55,11 @@ p {
     font-size: 20px;
     text-align: center;
 }
+
+#special {
+    float: right;
+    margin-right: 50px;
+    margin-top: 250px;
+    text-decoration: none;
+    font-size: 22px;
+}

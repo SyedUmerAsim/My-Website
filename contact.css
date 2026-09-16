@@ -32,6 +32,8 @@ main{
 .navbar a:hover{
     font-weight: bold;
     font-size: 27px;
+    animation-name: grow;
+    animation-duration: 2s;
 }
 
 .navbar li{
@@ -47,14 +49,30 @@ main{
 #insta {
     margin: 50px;
     float: left;
+    animation-name: SlideUp;
+    animation-duration: 2s;
 }
 
 #github {
     margin: 50px;
     float: left;
+    animation-name: SlideUp;
+    animation-duration: 2s;
 }
 
 #gmail {
     margin: 50px;
     float: left;
+    animation-name: SlideUp;
+    animation-duration: 2s;
+}
+
+@keyframes SlideUp{
+    from{
+        transform: translateY(400%);
+    }
+}
+
+@keyframes grow {
+    50%{transform:scale(1.3 , 1.3)}
 }

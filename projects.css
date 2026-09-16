@@ -37,6 +37,8 @@ p {
 .navbar a:hover{
     font-weight: bold;
     font-size: 27px;
+    animation-name: grow;
+    animation-duration: 2s;
 }
 
 .navbar li{
@@ -59,7 +61,11 @@ p {
 #special {
     float: right;
     margin-right: 50px;
-    margin-top: 250px;
+    margin-top: 450px;
     text-decoration: none;
     font-size: 22px;
+}
+
+@keyframes grow {
+    50%{transform:scale(1.3 , 1.3)}
 }

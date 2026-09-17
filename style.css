@@ -4,8 +4,8 @@ body {
 }
 
 main{
-    margin-left: 20px;
-    margin-right: 200px;
+    margin-left: 10px;
+    margin-right: 100px;
     padding: 20px;
     color: rgb(184, 183, 183);
     font-family: 'Courier New', Courier, monospace;
@@ -36,22 +36,25 @@ main{
 
 .navbar li{
     float: left;
+    text-align: center;
+    margin-left: 250px;
+}
+
+.devs{
+    display: inline-block
+}
+
+.vehicle{
+    float: right;
+    margin-right: 80px;
 }
 
 #Intro{
     font-size: 15px;
-    margin-right: 100px;
+    margin-right: 50px;
     padding: 30px;
-    padding-right: 200px;
     font-size: 22px;
     text-align: justify;
-}
-
-#pic {
-    float: right;
-    margin-top: -200px;
-    margin-right: -30px;
-    padding: 1px;
 }
 
 #intro2{

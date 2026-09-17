@@ -43,6 +43,8 @@ p {
 
 .navbar li{
     float: left;
+    text-align: center;
+    margin-left: 250px;
 }
 
 .WIP {
@@ -58,12 +60,20 @@ p {
     text-align: center;
 }
 
+#projectheading{
+    text-align: center;
+}
+
 #special {
     float: right;
     margin-right: 50px;
     margin-top: 450px;
     text-decoration: none;
     font-size: 22px;
+}
+
+.allboxs{
+    margin-left: 250px;
 }
 
 @keyframes grow {

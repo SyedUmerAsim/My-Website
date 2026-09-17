@@ -38,12 +38,15 @@ main{
 
 .navbar li{
     float: left;
+    text-align: center;
+    margin-left: 250px;
 }
 
 
 #contactheading {
     border-bottom: 3px solid rgb(184, 183, 183);  
     width: 600px;  
+    text-align: center;
 }
 
 #insta {
